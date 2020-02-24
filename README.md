@@ -214,3 +214,13 @@ Styles are passed as an object with 5 keys, `root`, `sidebar`, `content`, `overl
 ## Acknowledgements
 
 My goal was to make a React Component that implements the [material design spec for navigation drawers](https://material.io/design/components/navigation-drawer.html). My initial attempt was to improve [hamburger-basement by arnemart](https://github.com/arnemart/hamburger-basement) but I quickly figured that I better start from scratch. Still, that project helped me a ton to get started.
+
+## Build @tkoyama1988
+
+```shell script
+$ npm install --global rollup
+($ npm audit fix)
+
+$ npm install
+$ npm run-script build
+```
